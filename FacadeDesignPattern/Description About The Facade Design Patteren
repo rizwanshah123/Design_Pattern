@@ -1,0 +1,23 @@
+Overview:
+This project is an extended implementation of the Facade Design Pattern in Java, building upon the example provided by Tutorialspoint link: https://www.tutorialspoint.com/design_pattern/facade_pattern.htm. The Facade pattern simplifies a complex system by providing a unified interface, and in this project, it has been expanded to include additional shapes: Triangle, Oval, and Cylinder.
+
+Key Features:
+
+Facade Pattern Implementation: The core of this project is the implementation of the Facade pattern, organizing the complex subsystem of shapes into a simplified interface.
+Extended Shape Library: In addition to the original shapes (Circle, Rectangle, and Square), the implementation introduces three new shapes - Triangle, Oval, and Cylinder. This showcases the flexibility and scalability of the Facade pattern.
+User Input Interaction: The main program now prompts the user to enter the names of shapes separated by commas. This input is then processed to dynamically draw the specified shapes, enhancing user interaction and versatility.
+Code Structure and Readability: The code is organized and readable, making it easy for developers to understand the Facade pattern implementation and extend it further.
+How to Run:
+
+Clone the repository to your local machine.
+Open the project in your preferred Java development environment.
+Run the Main class.
+Follow the on-screen instructions to input shapes separated by commas.
+Enjoy the visualization of the drawn shapes using the enhanced Facade Design Pattern!
+Contributions:
+Contributions to this project are welcome! If you have additional shapes, improvements, or ideas to enhance the Facade pattern implementation, feel free to fork the repository and submit a pull request.
+
+Acknowledgments:
+This project is inspired by the Tutorialspoint Facade Design Pattern example. Special thanks to the Tutorialspoint team for providing valuable resources.
+
+Explore the simplicity and extensibility of the Facade Design Pattern in Java! Happy coding!
