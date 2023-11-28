@@ -1,0 +1,6 @@
+com\mycompany\facadedesignpattern\Shape.class
+com\mycompany\facadedesignpattern\Rectangle.class
+com\mycompany\facadedesignpattern\Square.class
+com\mycompany\facadedesignpattern\Circle.class
+com\mycompany\facadedesignpattern\FacadeDesignPattern.class
+com\mycompany\facadedesignpattern\ShapeMaker.class
