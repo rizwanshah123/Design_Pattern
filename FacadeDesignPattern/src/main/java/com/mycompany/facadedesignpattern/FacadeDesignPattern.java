@@ -4,6 +4,8 @@
 
 package com.mycompany.facadedesignpattern;
 
+import java.util.Scanner;
+
 /**
  *
  * @author shahr
@@ -11,10 +13,23 @@ package com.mycompany.facadedesignpattern;
 public class FacadeDesignPattern {
 
     public static void main(String[] args) {
-       ShapeMaker shapeMaker = new ShapeMaker();
+        
+        Scanner scanner = new Scanner(System.in);
 
-      shapeMaker.drawCircle();
-      shapeMaker.drawRectangle();
-      shapeMaker.drawSquare();	
+        System.out.println("Enter the names of shapes to draw using Comma Seperated \n\n Example (circle,triangle): ");
+        String input = scanner.nextLine();
+
+        ShapeMaker shapeMaker = new ShapeMaker(input);
+       shapeMaker.drawShapes();
+
+        scanner.close();
+      
+   
+     
+      
+      
+      
+      
     }
 }
+
