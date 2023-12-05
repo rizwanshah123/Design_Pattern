@@ -1,0 +1,30 @@
+Proxy Design Pattern Examples
+Image Proxy Pattern
+This package (com.mycompany.proxy_design_pattern) contains an implementation of the Proxy Design Pattern applied to image loading. The Virtual Proxy is introduced to check for supported image extensions before creating and displaying the actual image.
+
+Components
+Image Interface (Image): Defines the display method.
+RealImage Class (RealImage): A concrete implementation of the Image interface, responsible for loading and displaying images from disk.
+ProxyImage Class (ProxyImage): A proxy class that controls access to the RealImage, creating an instance only when needed.
+VirtualProxy Class (VirtualProxy): An extension of the ProxyImage class with added functionality to check if the image extension is supported before creating and displaying the RealImage.
+SupportedImage Enum (SupportedImage): An enumeration representing supported image extensions.
+Usage
+Create instances of ProxyImage or VirtualProxy to control the loading and displaying of images.
+The ProxyImage follows the standard Proxy Pattern, creating a RealImage only when necessary.
+The VirtualProxy extends the concept by checking if the image extension is supported before creating and displaying the RealImage.
+Online Exam Management System
+This package (online_exam_example) includes a simple implementation of an Exam Management System, demonstrating the use of the Proxy Design Pattern. The system consists of three main components: Virtual Proxy for on-demand loading of exam questions, Smart Proxy for managing student exam results, and a Protected Proxy for controlling access to exam results based on user roles.
+
+Components
+Virtual Proxy (VirtualProxyExam): Lazily loads the real exam questions only when necessary. Ensures efficient resource usage by deferring the loading process until the display() method is called.
+Smart Proxy (ExamResults): Serves as a prototype for managing student exam results. Allows students to add their answers to the prototype. Implements the Cloneable interface to support the creation of individual copies for each student.
+Protected Proxy (ExamResultsProxy): Controls access to exam results based on user roles (student or teacher). Allows students to view only their results and teachers to view a collection of all results.
+Usage
+Create instances of VirtualProxyExam to demonstrate on-demand loading of exam questions.
+Use ExamResults as a prototype to manage student exam results.
+Utilize ExamResultsProxy to control access to exam results based on user roles.
+Getting Started
+Clone the repository and explore the examples to understand and experiment with the Proxy Design Pattern.
+
+git clone https://github.com/rizwanshah123/proxy-design-pattern-examples.git
+cd proxy-design-pattern-examples
