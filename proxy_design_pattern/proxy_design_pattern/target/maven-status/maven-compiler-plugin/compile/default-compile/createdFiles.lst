@@ -1,0 +1,11 @@
+com\mycompany\proxy_design_pattern\SupportedImage.class
+online_exam_example\RealExam.class
+com\mycompany\proxy_design_pattern\Image.class
+com\mycompany\proxy_design_pattern\Proxy_design_pattern.class
+online_exam_example\ExamResults.class
+online_exam_example\ExamResultsProxy.class
+com\mycompany\proxy_design_pattern\RealImage.class
+online_exam_example\Main.class
+online_exam_example\VirtualProxyExam.class
+com\mycompany\proxy_design_pattern\VirtualProxy.class
+online_exam_example\Exam.class
